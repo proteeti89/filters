@@ -116,4 +116,4 @@ class App extends Component {
 }
 }
 
-export default withStyles(defaultSearchStyles)(App);
+export default App;
