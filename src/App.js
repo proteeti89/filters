@@ -4,32 +4,7 @@ import './App.css';
 
 /*import Chip from '@material-ui/core/Chip';*/
 import { DropdownMenu, MenuItem } from 'react-bootstrap-dropdown-menu';
-import Grow from '@material-ui/core/Grow';
-import TextField from '@material-ui/core/TextField';
-import SearchIcon from '@material-ui/icons/Search';
-import IconButton from '@material-ui/core/IconButton';
-import ClearIcon from '@material-ui/icons/Clear';
-import { withStyles } from '@material-ui/core/styles';
 
-const defaultSearchStyles = theme => ({
-  main: {
-    display: 'flex',
-    flex: '1 0 auto',
-  },
-  searchIcon: {
-    color: theme.palette.text.secondary,
-    marginTop: '10px',
-    marginRight: '8px',
-  },
-  searchText: {
-    flex: '0.8 0',
-  },
-  clearIcon: {
-    '&:hover': {
-      color: theme.palette.error.main,
-    },
-  },
-});
 
 class App extends Component {
 
