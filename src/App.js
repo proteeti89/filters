@@ -55,7 +55,6 @@ class App extends Component {
 
 
   render(){
-    const { classes, options, onHide, searchText } = this.props;
 
     const {allCourses, filtered} = this.state
 
