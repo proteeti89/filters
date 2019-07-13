@@ -5,8 +5,7 @@ import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import Chip from '@material-ui/core/Chip';
-/* import { DropdownMenu, MenuItem } from 'react-bootstrap-dropdown-menu'; */
-import Drawer from '@material-ui/core/Drawer';
+
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -246,24 +245,6 @@ class App extends Component {
 
 
     </div>
- {/*
-      <DropdownMenu triggerType = "text" trigger = "Filter by Course Type">
-        <MenuItem text = "Finance" onClick = {this.filterCoursesFinance} />
-        <MenuItem text = "Healthcare" onClick = {this.filterCoursesHealth} />
-        <MenuItem text = "Soft Skills" onClick = {this.filterCoursesSS} />
-      </DropdownMenu>
-
-      <DropdownMenu triggerType = "text" trigger = "Filter by Price">
-        <MenuItem text = "Prices Less Than 250" onClick = {this.filterLowPrices} />
-        <MenuItem text = "Prices Higher Than 250" onClick = {this.filterHighPrices} />
-      </DropdownMenu>
-
-      <Chip variant = "outlined"
-            color = "primary"
-            onClick = {this.resetToOriginal}
-            label = "Reset"/>
-*/}
-
       <div>
 
       <div>
