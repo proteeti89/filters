@@ -11,7 +11,6 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
-
 class App extends Component {
   constructor(props){
     super(props)
@@ -245,7 +244,7 @@ class App extends Component {
     Reset Filters
     </Button>
 
-  
+
     </div>
  {/*
       <DropdownMenu triggerType = "text" trigger = "Filter by Course Type">
